@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b2d5c">
+<title>RML | Rahim Medical Laboratory</title>
+<style>
+:root{--navy:#0b2d5c;--blue:#1479c9;--sky:#eaf5ff;--ink:#18324d;--muted:#5c6d7e;--white:#fff;--line:#dce8f3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#f7fbff;line-height:1.55}
+header{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+.nav{max-width:1100px;margin:auto;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--navy);font-weight:800}.logo{width:46px;height:46px;border-radius:12px;background:var(--navy);color:white;display:grid;place-items:center;font-size:20px;letter-spacing:1px}.brand small{display:block;font-size:11px;font-weight:600;color:var(--muted)}
+nav{display:flex;gap:15px;flex-wrap:wrap}nav a{font-size:13px;color:var(--navy);text-decoration:none;font-weight:700}
+.hero{background:linear-gradient(125deg,#09264e,#126fba);color:white;padding:58px 18px}
+.wrap{max-width:1100px;margin:auto}.hero-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:28px;align-items:center}
+.kicker{color:#bfe4ff;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}
+h1{font-size:clamp(30px,5vw,52px);line-height:1.1;margin:12px 0} .hero p{max-width:600px;color:#e5f3ff}
+.btn{display:inline-block;border-radius:9px;padding:12px 17px;text-decoration:none;font-weight:800;margin:6px 6px 0 0;background:#fff;color:var(--navy)}.btn.secondary{background:#d9efff;color:var(--navy)}.hero-card{background:white;color:var(--navy);padding:22px;border-radius:18px;box-shadow:0 12px 35px #001b3b35}.hero-card h3{margin-top:0}.hero-card div{padding:8px 0;border-bottom:1px solid var(--line)}.hero-card div:last-child{border:0}
+section{padding:42px 18px}.section-title{text-align:center;color:var(--navy);font-size:30px;margin:0 0 8px}.section-sub{text-align:center;color:var(--muted);margin:0 auto 25px;max-width:700px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:0 5px 18px #123b5b08}.card h3{margin:4px 0 8px;color:var(--navy)}.icon{font-size:28px}
+.price{font-size:25px;color:var(--blue);font-weight:800}.old{color:#718096;text-decoration:line-through;font-size:14px;margin-left:7px}.tag{display:inline-block;background:#e4f5ea;color:#17663b;padding:4px 9px;border-radius:99px;font-size:12px;font-weight:800}
+.tests{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;max-width:850px;margin:auto}.test{background:white;border:1px solid var(--line);padding:13px 16px;border-radius:10px;display:flex;justify-content:space-between;gap:10px}.test strong{color:var(--navy)}
+.note{font-size:13px;color:var(--muted);text-align:center;margin-top:16px}
+.report{background:var(--sky);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.report-box{max-width:780px;margin:auto;text-align:center;background:white;padding:28px;border-radius:16px;border:1px solid var(--line)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-grid .card p{margin:8px 0}
+footer{background:#071e3d;color:#dbeeff;text-align:center;padding:24px 18px;font-size:13px}
+.fab{position:fixed;right:16px;bottom:16px;background:#168447;color:#fff;text-decoration:none;font-weight:800;padding:13px 17px;border-radius:50px;box-shadow:0 5px 20px #0003;z-index:20}
+@media(max-width:720px){.hero-grid,.cards,.contact-grid{grid-template-columns:1fr}.tests{grid-template-columns:1fr}nav{gap:9px;justify-content:flex-end}nav a{font-size:11px}.hero{padding:40px 18px}.nav{align-items:flex-start}.brand small{max-width:160px}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+  <div class="brand"><div class="logo">RML</div><div>Rahim Medical Laboratory<small>&amp; Research Center</small></div></div>
+  <nav><a href="#services">Services</a><a href="#prices">Packages</a><a href="#tests">Tests</a><a href="#reports">Reports</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="kicker">Reliable laboratory services</div><h1>Your Health Is Our Priority</h1>
+<p>Accurate testing, reliable reports, and caring service at RML – Rahim Medical Laboratory &amp; Research Center, Peshawar.</p>
+<a class="btn" href="https://wa.me/923239276900?text=Assalam-o-Alaikum%2C%20I%20want%20to%20ask%20about%20RML%20laboratory%20services." target="_blank" rel="noopener">WhatsApp RML</a>
+<a class="btn secondary" href="#prices">View Packages</a></div>
+<div class="hero-card"><h3>Contact &amp; Services</h3><div>📍 Main GT Road, Near Amin Hotel, Hashtnagri, Peshawar</div><div>📞 0323-9276900</div><div>🏠 Home Sample Collection Available</div><div>🧪 Routine &amp; Special Laboratory Tests</div></div>
+</div></section>
+<section id="services"><div class="wrap"><h2 class="section-title">Why Choose RML?</h2><p class="section-sub">Patient-focused laboratory services with convenient contact options.</p>
+<div class="cards">
+<div class="card"><div class="icon">🧪</div><h3>Laboratory Tests</h3><p>Routine and special tests including CBC, thyroid, hormones, vitamins, liver and kidney profiles.</p></div>
+<div class="card"><div class="icon">🏠</div><h3>Home Sample Collection</h3><p>Contact us on WhatsApp to ask about home sample collection availability and booking.</p></div>
+<div class="card"><div class="icon">📋</div><h3>Patient Support</h3><p>Contact our team for test preparation, prices, report queries, and service information.</p></div>
+</div></div></section>
+<section id="prices" style="background:#fff"><div class="wrap"><h2 class="section-title">Special Packages</h2><p class="section-sub">Ask RML on WhatsApp to confirm current availability and package details.</p>
+<div class="cards">
+<div class="card"><span class="tag">Package</span><h3>Anemia Health Package</h3><p>Includes Ferritin, CBC, Vitamin B12 and Folate Level.</p><div class="price">Rs. 6,500 <span class="old">Rs. 8,000</span></div><a class="btn" href="https://wa.me/923239276900?text=Please%20share%20details%20of%20the%20Anemia%20Health%20Package." target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+<div class="card"><span class="tag">Package</span><h3>PCOS Profile</h3><p>Ask us for included tests and preparation instructions.</p><div class="price">Rs. 6,000 <span class="old">Rs. 8,000</span></div><a class="btn" href="https://wa.me/923239276900?text=Please%20share%20details%20of%20the%20PCOS%20Profile." target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+<div class="card"><span class="tag">Health Package</span><h3>Full Body Checkup</h3><p>Includes CBC, HbA1c, Vitamin D, TSH, LH, FSH and Prolactin. Please confirm package details with RML before booking.</p><div class="price">Rs. 9,000</div><a class="btn" href="https://wa.me/923239276900?text=Assalam-o-Alaikum%2C%20I%20want%20to%20book%20the%20Full%20Body%20Checkup%20package%20for%20Rs.%209000." target="_blank" rel="noopener">Book on WhatsApp</a></div>
+</div><p class="note">Prices and offers may change. Please confirm before visiting. Prices not confirmed by RML are not listed.</p></div></section>
+<section id="tests"><div class="wrap"><h2 class="section-title">Popular &amp; Special Tests</h2><p class="section-sub">Contact us for the current price of any test.</p>
+<div class="tests">
+<div class="test"><strong>Complete Blood Count (CBC)</strong><span>Rs. 500</span></div><div class="test"><strong>HbA1c</strong><span>Rs. 1,500</span></div>
+<div class="test"><strong>TSH</strong><span>Rs. 1,500</span></div><div class="test"><strong>Vitamin D</strong><span>Rs. 2,800</span></div>
+<div class="test"><strong>Vitamin B12</strong><span>Ask price</span></div><div class="test"><strong>Ferritin</strong><span>Ask price</span></div>
+<div class="test"><strong>LH</strong><span>Rs. 1,500</span></div><div class="test"><strong>FSH</strong><span>Rs. 1,500</span></div><div class="test"><strong>Prolactin</strong><span>Rs. 1,500</span></div>
+<div class="test"><strong>Testosterone</strong><span>Ask price</span></div><div class="test"><strong>AMH</strong><span>Ask price</span></div>
+<div class="test"><strong>Beta hCG</strong><span>Ask price</span></div><div class="test"><strong>Liver &amp; Kidney Profiles</strong><span>Ask price</span></div>
+<div class="test"><strong>HBsAg &amp; HCV Screening</strong><span>Ask price</span></div><div class="test"><strong>HCV PCR</strong><span>Ask price</span></div>
+</div><p class="note">Prices are in Pakistani Rupees. Other tests are available on request; please confirm current rates and package inclusions with RML.</p></div></section>
+<section class="report" id="reports"><div class="report-box"><h2 class="section-title">Online Patient Reports</h2><p>For a report query or to ask how to receive your report, contact RML directly on WhatsApp.</p><p><strong>Privacy note:</strong> This button does not display medical reports online. A secure patient login and report system must be set up separately before reports can be published online.</p><a class="btn" href="https://wa.me/923239276900?text=Assalam-o-Alaikum%2C%20I%20want%20to%20ask%20about%20my%20laboratory%20report." target="_blank" rel="noopener">Ask About My Report</a></div></section>
+<section id="contact"><div class="wrap"><h2 class="section-title">Contact RML</h2><p class="section-sub">We are here to help with test prices, bookings, and service questions.</p>
+<div class="contact-grid"><div class="card"><h3>📍 Visit Us</h3><p><strong>Rahim Medical Laboratory &amp; Research Center</strong></p><p>Main GT Road, Near Amin Hotel, Hashtnagri, Peshawar, Khyber Pakhtunkhwa, Pakistan.</p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Rahim+Medical+Laboratory+Near+Amin+Hotel+Hashtnagri+Peshawar" target="_blank" rel="noopener">Open Map Search</a></div>
+<div class="card"><h3>📱 Call or WhatsApp</h3><p><strong>0323-9276900</strong></p><p>Message us to confirm test prices, booking details, and home sample collection availability.</p><a class="btn" href="https://wa.me/923239276900" target="_blank" rel="noopener">Chat on WhatsApp</a><a class="btn secondary" href="tel:+923239276900">Call RML</a></div></div></div></section>
+</main>
+<footer><strong>RML – Rahim Medical Laboratory &amp; Research Center</strong><br>Your Health Is Our Priority<br>© RML. Please confirm prices and service availability directly with the laboratory.</footer>
+<a class="fab" href="https://wa.me/923239276900" target="_blank" rel="noopener">WhatsApp RML</a>
+</body></html>
